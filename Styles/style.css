@@ -1,0 +1,141 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+}
+
+.carousel-inner {
+    width: auto;
+}
+
+.carousel-inner > .item > img {
+    width: 640px;
+    height: 360px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../star-wars.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: black;
+    color: white;
+    position: absolute;
+    left: 1110px;
+    top: 470px;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+    position: absolute;
+    left: 1174px;
+    top: 460px;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+    position: absolute;
+    left: 1357px;
+    top: 410px;
+
+}
+
+.fa-linkedin {
+    background: black;
+    color: white;
+    position: absolute;
+    left: 1250px;
+    top: 440px;
+}
+
+.todo-list{
+    background-image: url("tick (1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+    position: absolute;
+    left: 1050px;
+    top: 510px;
+
+}
+
+.fa-sliders{
+    background: black;
+    color: white;
+    position: absolute;
+    left: 1050px;
+    top: 490px;
+}
+
+.fa-check{
+    background: black;
+    color: white;
+    position: absolute;
+    left: 980px;
+    top: 500px;
+}

@@ -1,0 +1,28 @@
+.todo-list-item {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid black;
+  margin: 10px 0 10px 0;
+}
+
+.todo-list-item-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  background-color: green;
+}
+
+.inactive {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
